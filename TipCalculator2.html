@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+  <title>Tip Calculator</title>
+  </head>
+ 
+<body>
+
+  <h2>Tip Calculator </h2>
+  <form method="post" action="Tipcalculator2.php">
+  <fieldset>
+    <legend>Bill Amount</legend>
+    Bill Subtotal  $: <input type="number" name="billsubtotal"  size="4"/><br />
+   
+  <fieldset>
+  
+  <legend>Tip Rate</legend>
+   <p>Tip percentage:</p>  
+
+  <input type="radio" name="tippercentage" value='10' checked />10%
+  <input type="radio" name="tippercentage" value='15' />15%
+  <input type="radio" name="tippercentage" value='20' />20%<br />
+  <input type="radio" name="tippercentage" value='custom' />
+  Custom:  <input type="number" name="custom" step=any > %<br />
+
+  
+
+  </fieldset><br />
+  
+  Split:<input type="number" name="nperson"/><br /><br />
+
+  
+  <input type="submit" name="submit" value="SUBMIT" >
+  <input type="reset" name="reset" value="CLEAR" >
+	 
+  
+    
+</form>
+</body>
+</html>
